@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- =========================
+       METADATOS Y CONFIGURACIÓN
+  ============================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda ficticia de ropa urbana y moderna.">
+  <meta name="author" content="The Power Student">
+  <meta name="keywords" content="tienda, ropa, moda, urbana, catálogo">
+
+  <title>Tienda Urbana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================
+       HEADER / NAVEGACIÓN
+  ============================== -->
+  <header>
+    <div class="logo">👕 Tienda Urbana</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#catalog">Catálogo</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- =========================
+       HERO (PRESENTACIÓN)
+  ============================== -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Descubre tu estilo</h1>
+      <p>Ropa urbana, moderna y cómoda para cualquier ocasión.</p>
+      <a href="#catalog" class="btn">Ver Catálogo</a>
+    </div>
+  </section>
+
+  <main>
+    <!-- =========================
+         SOBRE NOSOTROS
+    ============================== -->
+    <section id="about" class="about">
+      <h2>Sobre Nosotros</h2>
+      <p>En <strong>Tienda Urbana</strong> creemos que vestirse es mucho más que ponerse ropa: es expresar tu identidad. 
+      Ofrecemos prendas únicas, diseñadas con materiales de calidad, para que disfrutes de la moda sin sacrificar la comodidad.</p>
+    </section>
+
+    <!-- =========================
+         CATÁLOGO DE PRODUCTOS
+    ============================== -->
+  <section id="catalog" class="catalog">
+  <h2>Nuestro Catálogo</h2>
+  <div class="grid-catalog">
+    <article>
+      <img src="imagenes/camisetablanca.jpg" alt="Camiseta básica blanca">
+      <h3>Camiseta Básica</h3>
+      <p>Ideal para cualquier ocasión.</p>
+      <span class="price">14,99 €</span>
+    </article>
+    <article>
+      <img src="imagenes/sudadera.jpg" alt="Sudadera negra con capucha">
+      <h3>Sudadera Urbana</h3>
+      <p>Cómoda y moderna.</p>
+      <span class="price">29,99 €</span>
+    </article>
+    <article>
+      <img src="imagenes/vaquero.jpg" alt="Pantalón vaquero azul">
+      <h3>Pantalón Vaquero</h3>
+      <p>Un clásico que nunca falla.</p>
+      <span class="price">39,99 €</span>
+    </article>
+    <article>
+      <img src="imagenes/chaqueta.jpg" alt="Chaqueta bomber verde">
+      <h3>Chaqueta Bomber</h3>
+      <p>El toque final para tu outfit.</p>
+      <span class="price">49,99 €</span>
+    </article>
+  </div>
+</section>
+
+
+    <!-- =========================
+         CONTACTO
+    ============================== -->
+    <section id="contact" class="contact">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+        <label for="email">Correo</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- =========================
+       FOOTER
+  ============================== -->
+  <footer>
+    <p>&copy; 2025 Tienda Urbana | Todos los derechos reservados</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
+
+</body>
+</html>
